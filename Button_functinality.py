@@ -117,7 +117,7 @@ Botton3.place(x=650, y=545)
 
 #enter button work
 def enter_function(event):
-    searchBotton.invoke()
+    Botton1.invoke()
 
 root.bind('<Return>',enter_function)
 root.mainloop()
